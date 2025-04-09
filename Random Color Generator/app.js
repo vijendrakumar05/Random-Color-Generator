@@ -2,7 +2,7 @@ const containerEl = document.querySelector(".container");
 
 let previousColors = [];
 
-for (let index = 0; index < 108; index++) {
+for (let index = 0; index < 104; index++) {
   const colorContainerEl = document.createElement("div");
   colorContainerEl.classList.add("color-container");
   containerEl.appendChild(colorContainerEl);
